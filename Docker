@@ -1,1 +1,9 @@
+Docker is a containerization opensource platform used for making containers for running distributing and packaging applications with minimal use of resources.
+Containerization is the process of making containers that is a better alternative than full machine virtualization like VMS.
+Docker uses host operating system resources, which makes it more compatible, and application spin-up time is reduced as compared to VMS.
+Docker-hub is a central repository for saving and contributing container images.
+
+With the help of cotainerization we can achieve the purpose of testing and running applications with minimal use of resources and cost.
+Kubernetes plays a vital role in containerization management and it is being used currently by many IT giants.
+
 

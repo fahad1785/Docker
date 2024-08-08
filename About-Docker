@@ -1,4 +1,4 @@
-Docker is a platform that enables developers to automate the deployment, scaling, and management of applications within lightweight containers. These containers are isolated environments that package an application and all of its dependencies, allowing the application to run consistently across various environments, whether it's on a developer's machine, in a test environment, or in production.
+DOCKER is a platform that enables developers to automate the deployment, scaling, and management of applications within lightweight containers. These containers are isolated environments that package an application and all of its dependencies, allowing the application to run consistently across various environments, whether it's on a developer's machine, in a test environment, or in production.
 
 Key Components of Docker:
 Docker Engine: The core part of Docker that allows you to build and run containers. It consists of three main components:

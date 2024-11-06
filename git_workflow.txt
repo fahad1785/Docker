@@ -1,0 +1,47 @@
+Steps to Push Local Folder to GitHub Repository
+GitHub par New Repository Banana:
+
+GitHub par login karke New Repository create karen.
+Aap apne project ke liye koi bhi naam de sakte hain, chahe woh local folder ke naam se match kare ya nahi.
+Repository ko public ya private banane ka option choose karen.
+Fir "Create repository" button par click karen.
+Local Folder mein git init Command Run karna:
+
+Apne local project folder mein git init command run karen taaki Git yahan par initialize ho jaye.
+bash
+Copy code
+git init
+Files ko Staging mein Add Karna:
+
+Apne saari files ko Git ke staging area mein add karen.
+bash
+Copy code
+git add .
+Initial Commit Banana:
+
+Files ko commit karen.
+bash
+Copy code
+git commit -m "Initial commit"
+GitHub Repository ko Remote ke Taur par Add Karna:
+
+GitHub par jo nayi repository aapne banayi hai, uska URL copy karen. Jaise:
+arduino
+Copy code
+https://github.com/username/repository-name.git
+Us URL ko apne local repository mein as a remote add karen:
+bash
+Copy code
+git remote add origin https://github.com/username/repository-name.git
+Local Repository ko GitHub par Push Karna:
+
+Ab aap apne local repository ko GitHub par push kar sakte hain:
+bash
+Copy code
+git push -u origin main
+(Agar aapka default branch main hai toh yeh command use karen. Agar default branch master hai toh main ki jagah master likhen.)
+
+Important Points:
+Local folder aur GitHub repository ka naam match karna zaroori nahi hai.
+GitHub par remote add karne ke baad aap apni local repository ko kisi bhi naam se push kar sakte hain, chahe woh local folder se match karta ho ya nahi.
+git init se local folder Git repository mein convert ho jata hai aur uske baad aap Git commands use kar sakte hain.

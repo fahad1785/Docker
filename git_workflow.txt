@@ -1,3 +1,8 @@
+YE CHANGES ADD KARRA MAI CHECK KARNE KE LIYE KE 2 BRANCHES KO MERGE KARNE KE
+BAAD KYA HOTA HAI 
+
+
+
 Steps to Push Local Folder to GitHub Repository
 GitHub par New Repository Banana:
 
